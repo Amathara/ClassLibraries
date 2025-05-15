@@ -37,4 +37,5 @@ namespace WpfHelpers
     //      SelectedItem="{Binding SelectedItem.Condition, UpdateSourceTrigger=PropertyChanged}"
     //      Background="Honeydew"/>
 
+    // Change "Condition" to your own enum name.
 }
