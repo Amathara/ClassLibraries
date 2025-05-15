@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace WpfHelpers
 {
-    internal class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private Action<object> execute;// Function call
         private Func<object, bool> canExecute; // FUNK! returns value of the type specified by the bool parameter.
