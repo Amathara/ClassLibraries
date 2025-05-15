@@ -25,8 +25,12 @@ namespace WpfHelpers
         }
     }
 
-    //      Cane be used in the xaml like so: - The enum name used here is "Condition" - ofc it can be used in different ways.
-    // First! Add this to your "using" at the top: xmlns:helpers="clr-namespace:WpfHelpers;assembly=WpfHelpers"
+    //      Usage example in XAML:
+    //
+    // 1.    Add this namespace at the top:
+    //       xmlns:helpers="clr-namespace:WpfHelpers;assembly=WpfHelpers"
+    //
+    // 2.   Example of an implementation:
     //      <Label Content="Stand" Background="AliceBlue"/>
     //      <ComboBox Margin = "5,0,5,15"
     //      ItemsSource="{Binding Source={helpers:EnumBindingSource {x:Type model:Condition}}}"
